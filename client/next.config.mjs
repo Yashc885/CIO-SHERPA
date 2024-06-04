@@ -1,4 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+// next.config.mjs
+const nextConfig = {
+    images: {
+      domains: [
+        "image.similarpng.com",
+        "globalcioforum.com",
+        "localhost", 
+      ],
+    },
+  };
+  
+  export default nextConfig;
