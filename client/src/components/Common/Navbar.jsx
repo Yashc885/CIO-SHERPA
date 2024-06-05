@@ -5,13 +5,14 @@ import Image from "next/image";
 import { Navbar, Collapse, Typography, IconButton } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Menu, MenuHandler, MenuList, MenuItem } from "@material-tailwind/react";
-
+import Main from "@/Assets/Logo/Main.png";
+//A7E6FF
 function NavList() {
   return (
-    <ul className="my-4 flex w-full flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-20">
+    <ul className="my-2 flex w-full flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-20">
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-medium">
-        <Link href="/" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
-          Home
+        <Link href="/aboutus" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
+          About-Us
         </Link>
       </Typography>
       <Menu allowHover>
@@ -104,14 +105,14 @@ export function NavbarSimple() {
   }, []);
 
   return (
-    <Navbar className="bg-[#ffffff] w-full">
+    <Navbar className="bg-[#ffffff] w-full py-2">
       <div className="flex items-center justify-between w-full px-4 lg:px-8">
         <Link href="/" className="flex items-center">
           <Image
-            src="https://globalcioforum.com/wp-content/uploads/2020/01/Global-Forum.png" 
+            src={Main} 
             alt="Logo"
-            width={100}
-            height={100}
+            width={60} 
+            height={60} 
           />
         </Link>
         <div className="hidden lg:block">
@@ -119,7 +120,7 @@ export function NavbarSimple() {
         </div>
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto h-12 w-12 text-black  focus:bg-black active:bg-black lg:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >

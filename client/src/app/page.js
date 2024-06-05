@@ -1,13 +1,15 @@
 "use client";
 import { NavbarSimple } from "@/components/Common/Navbar";
+import { Home } from "@/components/Home/Home";
+import {About} from "@/components/About/About";
 import { Header } from "@/components/Common/Header";
-import {CarouselDefault} from "@/components/Home/Carousel";
 export default function page() {
   return (
     <>
-      <Header/>
-      <NavbarSimple />
-      <CarouselDefault />
+    <Header />
+    <NavbarSimple />
+      <Home />
+      <About />
     </>
   );
 }

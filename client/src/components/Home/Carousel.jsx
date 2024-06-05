@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
-import {Hero} from "@/Assets/Home/hero.jpg";
+
 export function CarouselDefault() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
@@ -19,60 +19,39 @@ export function CarouselDefault() {
   };
 
   return (
-    <div className="w-[100%]  sm:flex py-4 sm:py-8 pl-4 sm:pl-8 ">
-    <div className="sm:w-[50%]">
-    <Carousel
-      className=""
-      autoplay
-      autoplayInterval={500}
-      onNextClick={handleNext}
-      onPrevClick={handlePrev}
-      currentIndex={currentIndex}
-    >
-      {images.map((image, index) => (
-        <Image
-          key={index}
-          src={image}
-          alt={`image ${index + 1}`}
-          className="object-fit: contain h-full w-full flex flex-col justify-center items-center"
-          width={100} 
-          height={100} 
-        />
-      ))}
-    </Carousel>
-    </div>
-    <div className="sm:w-[50%] pl-4 sm:pl-8 pr-4 sm:pr-8">
-    <div className="grid  grid-cols-2 gap-4">
-          <div>
-            <img
-              className="h-[200px] w-[250px] hover:ease-in-ease-out rounded-sm shadow-lg object-cover"
-              src="https://cxotechbot.com/assets/content/cxomay.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-[200px] w-[250px] rounded-sm shadow-lg object-cover"
-              src="https://cxotechbot.com/assets/content/cxomay.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-[200px] w-[250px] rounded-sm shadow-lg object-cover"
-              src="https://cxotechbot.com/assets/content/cxomay.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-[200px] w-[250px] rounded-sm shadow-lg object-cover"
-              src="https://cxotechbot.com/assets/content/cxomay.jpg"
-              alt=""
-            />
-          </div>
-    </div>
-    </div>
+    <div className="w-full flex flex-col sm:flex-row py-4 sm:py-8 px-4 sm:px-8">
+      <div className="sm:w-1/2 mb-4 sm:mb-0">
+        <Carousel
+          autoplay
+          autoplayInterval={5000}
+          onNextClick={handleNext}
+          onPrevClick={handlePrev}
+          currentIndex={currentIndex}
+        >
+          {images.map((image, index) => (
+            <div key={index} className="relative h-64 sm:h-96 w-full flex justify-center items-center">
+              <Image
+                src={image}
+                alt={`image ${index + 1}`}
+                className="object-cover"
+                layout="fill" // This makes the image take up the full container
+                quality={100} // Ensures the image quality is not reduced
+              />
+            </div>
+          ))}
+        </Carousel>
+      </div>
+
+      <div className=" ml-2 sm:w-1/2 grid grid-cols-2 gap-4">
+        {Array(4).fill("").map((_, index) => (
+          <img
+            key={index}
+            className="h-48 w-full rounded-sm shadow-lg object-cover"
+            src="https://cxotechbot.com/assets/content/cxomay.jpg"
+            alt={`image ${index + 1}`}
+          />
+        ))}
+      </div>
     </div>
   );
 }
