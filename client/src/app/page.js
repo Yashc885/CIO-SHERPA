@@ -21,6 +21,7 @@ export default function page() {
       <Partner/>
         <Service />
         <ExpertPage />
+        <Mission />
         <News />
         <CustomerGrid />
         <Contact />

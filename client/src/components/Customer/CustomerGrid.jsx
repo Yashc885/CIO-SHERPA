@@ -26,11 +26,11 @@ const customers = [
 
 const CustomerGrid = () => {
   return (
-    <div className= " py-4 pl-2 pr-2  bg-blue-200 mx-auto min-w-screen ">
+    <div className= " py-4 pl-2 pr-2  bg-blue-50 mx-auto min-w-screen ">
     <div className="">
         <div className=""></div>
         <p className="text-center text-md text-black ">TESTIMONAL</p>
-        <h3 className="text-2xl font-bold uppercase text-gray-200 mb-4 text-center ">What Our Customer Say's : </h3>
+        <h3 className="text-2xl font-bold uppercase text-gray-700 mb-4 text-center ">What Our Customer Say's : </h3>
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center">
       {customers.map((customer) => (
