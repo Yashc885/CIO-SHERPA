@@ -9,6 +9,8 @@ import CustomerGrid from "@/components/Customer/CustomerGrid";
 import News from "@/components/News/News";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
+import Mission from "@/components/Mission/Mission";
+import ExpertPage from "@/components/Expert/ExpertPage";
 export default function page() {
   return (
     <div>
@@ -17,12 +19,11 @@ export default function page() {
       <Home />
       <About />
       <Partner/>
-      <div  >
         <Service />
+        <ExpertPage />
         <News />
         <CustomerGrid />
         <Contact />
-      </div>
       <Footer />
     </div>
   );
