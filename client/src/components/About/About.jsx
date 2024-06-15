@@ -10,7 +10,7 @@ export function About() {
   ];
 
   return (
-    <div className="mx-auto  bg-blue-500 p-8">
+    <div className="mx-auto  bg-blue-300 p-8">
       <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-8">WHAT ARE WE</h1>
       <CardList cards={cards} /> 
     </div>

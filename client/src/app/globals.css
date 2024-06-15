@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* styles/globals.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); */
+
+/* Apply the font to the body */
+body {
+  font-family: 'Merriweather', serif;
+}
+
+
+
 .section-title::after {
     content: "";
     height: 3px;
