@@ -5,7 +5,7 @@ import {About} from "@/components/About/About";
 import { Header } from "@/components/Common/Header";
 import Partner  from "@/components/Partner/Partner";
 import Service from "@/components/Service/Service";
-import Customer from "@/components/Customer/Customer";
+import CustomerGrid from "@/components/Customer/CustomerGrid";
 import News from "@/components/News/News";
 export default function page() {
   return (
@@ -17,8 +17,8 @@ export default function page() {
       <Partner/>
       <div  >
         <Service />
-        <Customer />
         <News />
+        <CustomerGrid />
       </div>
     </div>
   );
