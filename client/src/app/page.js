@@ -7,6 +7,8 @@ import Partner  from "@/components/Partner/Partner";
 import Service from "@/components/Service/Service";
 import CustomerGrid from "@/components/Customer/CustomerGrid";
 import News from "@/components/News/News";
+import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
 export default function page() {
   return (
     <div>
@@ -19,7 +21,9 @@ export default function page() {
         <Service />
         <News />
         <CustomerGrid />
+        <Contact />
       </div>
+      <Footer />
     </div>
   );
 }
