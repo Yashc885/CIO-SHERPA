@@ -5,6 +5,7 @@ const nextConfig = {
       "image.similarpng.com",
       "globalcioforum.com",
       "images.unsplash.com",
+      "picsum.photos",
       "localhost", 
     ],
   },

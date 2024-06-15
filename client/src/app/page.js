@@ -5,6 +5,8 @@ import {About} from "@/components/About/About";
 import { Header } from "@/components/Common/Header";
 import Partner  from "@/components/Partner/Partner";
 import Service from "@/components/Service/Service";
+import Customer from "@/components/Customer/Customer";
+import News from "@/components/News/News";
 export default function page() {
   return (
     <div>
@@ -15,6 +17,8 @@ export default function page() {
       <Partner/>
       <div  >
         <Service />
+        <Customer />
+        <News />
       </div>
     </div>
   );
