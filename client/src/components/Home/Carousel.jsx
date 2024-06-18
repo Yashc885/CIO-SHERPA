@@ -42,7 +42,7 @@ export function CarouselDefault() {
         </Carousel>
       </div>
 
-      <div className=" ml-2 sm:w-1/2 grid grid-cols-2 gap-4">
+      <div className=" ml-2 sm:w-1/2 grid grid-cols-2 gap-4" >
         {Array(4).fill("").map((_, index) => (
           <img
             key={index}

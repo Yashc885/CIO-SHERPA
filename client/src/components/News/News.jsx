@@ -12,11 +12,11 @@ const News = () => {
             <div className="">
                 <div className="md:flex py-4">
                     <div className="md:w-[50%]">
-                    <div className=" md:pl-8 ">
+                    <div className=" md:pl-8 " data-aos="slide-left" data-aos-duration="1500">
                         <Main />
                     </div>
                     </div>
-                    <div className="md:w-[50%]">
+                    <div className="md:w-[50%]" data-aos="slide-right" data-aos-duration="1500">
                         <Events />
                     </div>
                 </div>

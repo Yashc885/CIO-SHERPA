@@ -32,7 +32,7 @@ const CustomerGrid = () => {
         <p className="text-center text-md text-black ">TESTIMONAL</p>
         <h3 className="text-2xl font-bold uppercase text-gray-700 mb-4 text-center ">What Our Customer Say's : </h3>
     </div>
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center" data-aos="slide-left" data-aos-duration="1500" >
       {customers.map((customer) => (
         <Customer
           key={customer.id}

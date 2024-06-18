@@ -105,27 +105,27 @@ const Contact = () => {
             >
               <input
                 type="text"
-                className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 "
+                className="w-full h-12 text-gray-800 placeholder-gray-500 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-300 focus:outline-none pl-4 "
                 placeholder="Name"
                 name="name"
                 required
               />
               <input
                 type="email"
-                className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 "
+                className="w-full h-12 text-gray-800 placeholder-gray-500 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-300 focus:outline-none pl-4 "
                 placeholder="Email"
                 name="email"
                 required
               />
               <input
                 type="tel"
-                className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 m"
+                className="w-full h-12 text-gray-800 placeholder-gray-500 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-300 focus:outline-none pl-4 m"
                 placeholder="Phone"
                 name="phone"
                 required
               />
               <div className="space-y-2">
-                <h4 className="text-gray-500 text-lg font-normal leading-7 mb-2">
+                <h4 className="text-gray-700 text-lg pl-2 font-normal leading-7 mb-2">
                   Preferred method of communication
                 </h4>
                 <div className="flex items-center space-x-4">
@@ -140,9 +140,9 @@ const Contact = () => {
                     />
                     <label
                       htmlFor="email"
-                      className="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6"
+                      className="flex items-center cursor-pointer text-gray-500 hover:text-gray-800 text-base font-normal leading-6"
                     >
-                      <span className="border border-gray-300 rounded-full mr-2 w-4 h-4 ml-2"></span>
+                      <span className="border border-gray-300  hover:border-gray-800 rounded-full mr-2 w-4 h-4 ml-2"></span>
                       Email
                     </label>
                   </div>
@@ -156,16 +156,16 @@ const Contact = () => {
                     />
                     <label
                       htmlFor="phone"
-                      className="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6"
+                      className="flex items-center cursor-pointer text-gray-500 hover:text-gray-800   text-base font-normal leading-6"
                     >
-                      <span className="border border-gray-300 rounded-full mr-2 w-4 h-4 ml-2"></span>
+                      <span className="border border-gray-300  hover:border-gray-800 rounded-full mr-2 w-4 h-4 ml-2"></span>
                       Phone
                     </label>
                   </div>
                 </div>
               </div>
               <textarea
-                className="w-full h-16 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-lg border border-gray-200 focus:outline-none pl-4 resize-none"
+                className="w-full h-16 text-gray-800 placeholder-gray-500 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-lg border border-gray-300 focus:outline-none pl-4 resize-none"
                 placeholder="Message"
                 name="message"
                 required

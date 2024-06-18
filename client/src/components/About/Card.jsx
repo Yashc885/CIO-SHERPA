@@ -32,7 +32,7 @@ const Card = ({ imageUrl, title, agla_page }) => {
 
 const CardList = ({ cards }) => { 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="slide-right" data-aos-duration="1500">
       {cards.map((item, index) => (
         <Card
           key={index}

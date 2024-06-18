@@ -22,9 +22,9 @@ const Service = () => {
           <div className="md:flex">
             <div className="md:w-1/2">
               <div className="pl-4 pr-4 md:pl-0 md:pr-8">
-                <h2 className="text-2xl font-bold uppercase text-blue-900 mb-4">Industry Landscape</h2>
+                <h2 className="text-2xl font-bold uppercase text-blue-900 mb-4"  data-aos="flip-left" duration = "2500">Industry Landscape</h2>
                 <div className="py-1 text-justify">
-                  <p className="font-semibold text-lg text-gray-700">Taking a look at the industry-specific advancements, opportunities, challenges and best practices.</p>
+                  <p className="font-semibold text-lg text-gray-700" data-aos="fase-left" duration = "2500" > Taking a look at the industry-specific advancements, opportunities, challenges and best practices.</p>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Service = () => {
             key={card.id}
             className="relative rounded-lg shadow-xl transition transform ease-in-out duration-300"
           >
-            <Link href={card.link}>
+            <Link href={card.link} data-aos="zoom-out" data-aos-duration="4500" >
               <Image
                 src={card.src}
                 alt={card.alt}

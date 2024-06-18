@@ -17,7 +17,7 @@ const Partner = () => {
             <div className="container mx-auto">
                 <div className="row">
                     <div className="section-title mb-12 relative text-center">
-                        <h2 className="text-2xl md:text-xl sm:lg  font-semibold uppercase pb-2 text-black tracking-wide m-0">
+                        <h2 className="text-2xl md:text-xl sm:lg  font-semibold uppercase pb-2 text-black tracking-wide m-0" data-aos="fade-out" data-aos-duration="1500">
                             Our Partners :
                         </h2>
                         <div className="after-element absolute left-0 right-0 mx-auto bg-blue-400 h-1 w-20 mt-2"></div>
