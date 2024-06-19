@@ -12,10 +12,11 @@ import Footer from "@/components/Footer/Footer";
 import Mission from "@/components/Mission/Mission";
 import ExpertPage from "@/components/Expert/ExpertPage";
 import Purose from "@/components/Purose/Purose";
+import Slider from "@/components/Common/Slider.jsx"
 export default function page() {
   return (
     <div>
-      <Header />
+      <Slider />
       <NavbarSimple />
       <Home />
       <About />

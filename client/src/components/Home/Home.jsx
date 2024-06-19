@@ -6,7 +6,7 @@ export function Home() {
       <div className="min-h-screen ">
         <CarouselDefault />
         <div className="py-4 items-center justify-center text-center ">
-          <Slider />
+          {/* <Slider /> */}
         </div>
       </div>
     );
