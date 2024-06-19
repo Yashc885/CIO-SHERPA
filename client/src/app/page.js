@@ -11,6 +11,7 @@ import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import Mission from "@/components/Mission/Mission";
 import ExpertPage from "@/components/Expert/ExpertPage";
+import Purose from "@/components/Purose/Purose";
 export default function page() {
   return (
     <div>
@@ -21,6 +22,7 @@ export default function page() {
       <Partner/>
         <Service />
         <ExpertPage />
+        <Purose />
         <Mission />
         <News />
         <CustomerGrid />
