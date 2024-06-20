@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import Give from "@/Assets/About/Give.png";
 
 const cardData = [
   {
