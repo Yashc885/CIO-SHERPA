@@ -18,35 +18,45 @@ const Mission = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 justify-center mt-5">
           <MissionCard 
-            title="Tracking Lead" 
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur necessitatibus eaque."
+            title="BFSI" 
+            description="Driving financial innovation and security to meet evolving market demands in the banking, finance, and insurance sectors."
             href="/tracking-lead"
           />
           <MissionCard 
-            title="Advanced Targeting solution" 
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur necessitatibus eaque."
+            title="Healthcare" 
+            description="Transforming patient care and operational efficiency through cutting-edge technologies and medical advancements."
             href="/advanced-targeting"
           />
           <MissionCard 
-            title="Global Reach & Quality Traffic" 
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur necessitatibus eaque."
+            title="Travel & Hospitality: " 
+            description="Enhancing customer experiences and operational excellence in the dynamic travel and hospitality industry."
             href="/global-reach"
           />
           <MissionCard 
-            title="Flexible pricing models" 
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur necessitatibus eaque."
+            title="Retail and E-commerce:" 
+            description=" Revolutionising shopping experiences and supply chain efficiencies to meet digital consumer demands."
             href="/flexible-pricing"
           />
           <MissionCard 
-            title="Advanced optimization " 
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur necessitatibus eaque."
+            title="Supply Chain Management (SCM):  " 
+            description="Optimising logistics and distribution networks for seamless global operations and supply chain resilience.."
             href="/advanced-optimization"
           />
           <MissionCard 
-            title="Account management team" 
-            description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam consequatur necessitatibus eaque."
+            title="Education & Technology:" 
+            description=" Empowering learners and educators with transformative technology solutions for enhanced educational outcomes."
             href="/account-management"
           />
+          <MissionCard 
+            title="Agriculture:" 
+            description=" Innovating sustainable practices and improving yield through technology-driven agricultural advancements."
+            href="/account-management"
+          />       
+           <MissionCard 
+            title="Government & Public Services:" 
+            description=" Enhancing governance and citizen services through digital transformation and efficient public administration."
+            href="/account-management"
+          />          
         </div>
       </div>
     </section>
