@@ -18,7 +18,7 @@ const Slider = () => {
       </div>
       <Marquee speed={60}>
         {contentItems.map((item, index) => (
-          <div key={index} className="inline pl-4">
+          <div key={index} className="inline  bg-white text-white pl-4">
             {item}
           </div>
         ))}

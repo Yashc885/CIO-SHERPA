@@ -43,8 +43,8 @@ function NavList() {
             </Link>
           </MenuItem>
           <MenuItem>
-            <Link href="/sherpa_spotlight" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
-              Spotlight
+            <Link href="/faq" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
+              FAQ
             </Link>
           </MenuItem>
         </MenuList>
