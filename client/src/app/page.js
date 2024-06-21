@@ -22,12 +22,12 @@ export default function page() {
       <About />
       <Brands/>
         <Service />
-        <ExpertPage />
+        {/* <ExpertPage /> */}
         <Purose />
         <Mission />
         <News />
         <CustomerGrid />
-        <Contact />
+        {/* <Contact /> */}
       <Footer />
     </div>
   );
