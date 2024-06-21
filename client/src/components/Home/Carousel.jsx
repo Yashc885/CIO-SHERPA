@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
+import Slider from "@/components/Common/Slider.jsx";
+import { NavbarSimple } from "@/components/Common/Navbar";
 
 export function CarouselDefault() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,39 +21,29 @@ export function CarouselDefault() {
   };
 
   return (
-    <div className="w-full flex flex-col sm:flex-row py-4 sm:py-8 px-4 sm:px-8">
-      <div className="sm:w-1/2 mb-4 sm:mb-0">
-        <Carousel
-          autoplay
-          autoplayInterval={5000}
-          onNextClick={handleNext}
-          onPrevClick={handlePrev}
-          currentIndex={currentIndex}
-        >
-          {images.map((image, index) => (
-            <div key={index} className="relative h-64 sm:h-96 w-full flex justify-center items-center">
-              <Image
-                src={image}
-                alt={`image ${index + 1}`}
-                className="object-cover"
-                layout="fill" // This makes the image take up the full container
-                quality={100} // Ensures the image quality is not reduced
-              />
-            </div>
-          ))}
-        </Carousel>
-      </div>
-
-      <div className=" ml-2 sm:w-1/2 grid grid-cols-2 gap-4" >
-        {Array(4).fill("").map((_, index) => (
-          <img
-            key={index}
-            className="h-48 w-full rounded-sm shadow-lg object-cover"
-            src="https://cxotechbot.com/assets/content/cxomay.jpg"
-            alt={`image ${index + 1}`}
-          />
+    <div className="w-full h-screen overflow-hidden"> 
+      <Slider />
+      <NavbarSimple />
+      <Carousel
+        autoplay
+        autoplayInterval={5000}
+        onNextClick={handleNext}
+        onPrevClick={handlePrev}
+        currentIndex={currentIndex}
+        className="h-full"
+      >
+        {images.map((image, index) => (
+          <div key={index} className="relative h-full w-full flex justify-center items-center">
+            <Image
+              src={image}
+              alt={`image ${index + 1}`}
+              className="object-cover"
+              layout="fill" // This makes the image take up the full container
+              quality={100} // Ensures the image quality is not reduced
+            />
+          </div>
         ))}
-      </div>
+      </Carousel>
     </div>
   );
 }

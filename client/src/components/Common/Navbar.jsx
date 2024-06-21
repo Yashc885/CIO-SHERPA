@@ -10,6 +10,11 @@ import Main from "@/Assets/Logo/Main.png";
 function NavList() {
   return (
     <ul className="my-2 flex w-full flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-20">
+          <Typography as="li" variant="small" color="blue-gray" className="p-1 font-medium">
+        <Link href="/" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
+          Home
+        </Link>
+      </Typography>
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-medium">
         <Link href="/aboutus" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
           About-Us
@@ -23,18 +28,18 @@ function NavList() {
         </MenuHandler>
         <MenuList className="p-1">
           <MenuItem>
-            <Link href="/activities" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
-               Activities
+            <Link href="/news" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
+               News
             </Link>
           </MenuItem>
           <MenuItem>
-            <Link href="/spark_hub" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
-               Hub
+            <Link href="/testimonial" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
+               Testimonial
             </Link>
           </MenuItem>
           <MenuItem>
-            <Link href="/sherpa_awards" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
-               Awards
+            <Link href="/expert" className="flex items-center hover:text-[#2a6f97] transition-colors text-black text-base">
+               Expert
             </Link>
           </MenuItem>
           <MenuItem>

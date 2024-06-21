@@ -16,16 +16,13 @@ import Slider from "@/components/Common/Slider.jsx"
 export default function page() {
   return (
     <div>
-      <Slider />
-      <NavbarSimple />
       <Home />
       <About />
-      <Brands/>
         <Service />
         {/* <ExpertPage /> */}
         <Purose />
         <Mission />
-        <News />
+        <Brands/>
         <CustomerGrid />
         {/* <Contact /> */}
       <Footer />

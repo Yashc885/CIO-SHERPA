@@ -1,6 +1,7 @@
 import React from 'react' ;
 import {CarouselDefault} from "@/components/Home/Carousel";
-import Slider from "./Slider"
+import Slider from "@/components/Common/Slider.jsx"
+import { NavbarSimple } from "@/components/Common/Navbar";
 export function Home() {
     return (
       <div className="min-h-screen ">
