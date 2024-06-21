@@ -6,17 +6,17 @@ const cardData = [
   {
     title: 'Empower',
     content: 'Fostering innovation & excellence through empowerment cultivates creativity, drives high performance, and propels pioneering advancements for exceptional success.',
-    imgSrc: 'https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg',
+    imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-homuzThCXiJCVlo4mfmPDVNqII3qjQtLrg&s',
   },
   {
     title: 'Elevate',
     content: 'Lighthouse leadership inspires direction, guiding teams to elevate their goals, aligning vision with action for transformative growth and success..',
-    imgSrc: 'https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg',
+    imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3j1eDW7H8_p6Fa-yzV5W49PIrO-_A9mKr7g5CUffNuQelRb8QVbFNJ5RsXlBNX0hR7e0&usqp=CAU',
   },
   {
     title: 'Give Back',
     content: 'Building a sustainable tech community to give back, fostering collaboration and innovation for lasting positive impact and growth.',
-    imgSrc: 'https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg',
+    imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBm9jFPjSKgkre3Oqc6lE1wkM38sX9JgrSuMOAOn0RghanjPYdrS6xur7wjT9fgqdb2vo&usqp=CAU',
   },
   
 ];
