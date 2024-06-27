@@ -3,6 +3,9 @@ import Image from "next/image";
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Ban1 from "./../../Assets/Home/Ban1.jpg";
+import Ban2 from "./../../Assets/Home/Ban2.jpg";
+import Ban3 from "./../../Assets/Home/Ban3.jpg";
 
 const HeroCarousel = () => {
   return (
@@ -28,7 +31,7 @@ const HeroCarousel = () => {
           height={720}
           width={1000}
           className="h-screen object-cover"
-          src="https://i.pinimg.com/736x/32/bd/0b/32bd0ba1b48a5f3ec26c333b78f2a282.jpg"
+          src={Ban1}
           alt="hbm construction cover image 1"
         />
       </div>
@@ -37,7 +40,7 @@ const HeroCarousel = () => {
           height={720}
           width={1000}
           className="h-screen object-cover"
-          src="https://st4.depositphotos.com/20524830/26161/i/450/depositphotos_261611630-stock-photo-blue-vivid-image-globe-globalization.jpg"
+          src={Ban2}
           alt="hbm construction cover image 2"
         />
       </div>
@@ -46,7 +49,7 @@ const HeroCarousel = () => {
           height={720}
           width={1000}
           className="h-screen object-cover"
-          src="https://previews.123rf.com/images/milkos/milkos2009/milkos200904236/156414819-global-economy-3d-world-globe-over-blue-background-with-financial-graphs-and-economics-statistics.jpg"
+          src={Ban3}
           alt="hbm construction cover image 3"
         />
       </div>

@@ -1,9 +1,9 @@
 "use client";
 import { NavbarSimple } from "@/components/Common/Navbar";
-import  Home  from "@/components/Home/Home";
 import About from "@/components/About/About";
 import HeroCarousel from './../components/Home/HeroCarousel.jsx';
 import TypeWriterEffect from "./../components/Home/TypeWriterEffect.tsx";
+import LogoSection from "./../components/Home/LogoSection.jsx";
 // import { Header } from "@/components/Common/Header";
 import Brands  from "@/components/Brands/Brands";
 import Service from "@/components/Service/Service";
@@ -19,6 +19,7 @@ export default function page() {
   return (
     <div>
     <Slider />
+    <LogoSection />
     <NavbarSimple />
     <div className="relative  ">
         <div className="absolute inset-0 ">
